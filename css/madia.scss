@@ -1,0 +1,83 @@
+@media screen and (max-width:400px){
+    section{
+        height: 100%;
+        .container{
+            width: 100%;
+            .play{
+                width: 50%;
+                .btnplay{
+                    width: 100px;
+                    height: 50px;
+                    border-radius: 10px;
+                }
+                .btnplay:hover{
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    font-size: 1.1em;
+                }
+            }
+            .windov{
+                flex-direction: column;
+                .gamer{
+                    width: 100%;
+                }
+                .result{
+                    width: 100%;
+                }
+                .compyuter{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width:400px) and (max-width:600px){
+    section {
+        height: 100%;
+
+        .container {
+            width: 100%;
+
+            .play {
+                width: 50%;
+
+                .btnplay {
+                    width: 150px;
+                    height: 80px;
+                    border-radius: 10px;
+                }
+
+                .btnplay:hover {
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 50%;
+                    font-size: 1.3em;
+                }
+            }
+
+            .windov {
+                flex-direction: column;
+
+                .gamer {
+                    width: 100%;
+                    .card{
+                        span{
+                            img:hover{
+                                transform: scale(1.07) rotate(-5deg);
+                            }
+                        }
+                    }
+                }
+
+                .result {
+                    width: 100%;
+                }
+
+                .compyuter {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
