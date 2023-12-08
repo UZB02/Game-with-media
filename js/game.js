@@ -12,18 +12,17 @@ Btnplay.addEventListener("click", () => {
 })
 let data = [
     {
-        rock:"./img/tosh.png"
+        rock: "./img/tosh.png"
     },
     {
-        scissors:"./img/Qaychi.png"
+        scissors: "./img/Qaychi.png"
     },
     {
-        paper:"./img/Qogoz.png"
+        paper: "./img/Qogoz.png"
     }
 ]
 
 Rock.addEventListener("click", () => {
-    alert("Ishonchingiz komilmi?")
     let a = Math.round(Math.random() * (data.length - 1))
     console.log(data[a]);
     if (data[a].rock) {
@@ -64,7 +63,6 @@ Rock.addEventListener("click", () => {
     }
 })
 Paper.addEventListener("click", () => {
-    alert("Ishonchingiz komilmi?")
     let a = Math.round(Math.random() * (data.length - 1))
     console.log(data[a]);
     if (data[a].rock) {
@@ -105,7 +103,6 @@ Paper.addEventListener("click", () => {
     }
 })
 Scissors.addEventListener("click", () => {
-    alert("Ishonchingiz komilmi?")
     let a = Math.round(Math.random() * (data.length - 1))
     console.log(data[a]);
     if (data[a].rock) {
